@@ -7,7 +7,8 @@ def caesar_cipher_encoder(text, shifting_parameter):
     """
 
     :param text: Some text, that contains only letters from the latin alphabet and some punctuation marks.
-    :param shifting_parameter: The parameter with whom every letter is shifted. Punctuation marks are not effected.
+    :param shifting_parameter: Integer. The parameter with whom every letter is shifted. Punctuation marks are
+    not effected.
     :return: Caesar encrypted text.
     """
 
