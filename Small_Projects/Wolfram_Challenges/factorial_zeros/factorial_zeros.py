@@ -32,10 +32,15 @@ def factorial_zeros(n):
             list_of_digits.append(loop_number % 10)
             loop_number = (loop_number - loop_number % 10) // 10
         return list_of_digits
-    zeros_count = 0
-    digits_of_n_factorial = get_digits(factorial(n))
-    j = 0
-    while digits_of_n_factorial[j] == 0:
-        zeros_count += 1
-        j += 1
-    return zeros_count
+    if not isinstance(n, int):
+        raise ValueError("Your input must be a positive integer.")
+    elif not n > 0:
+        raise ValueError("Your input must be a positive integer.")
+    else:
+        zeros_count = 0
+        digits_of_n_factorial = get_digits(factorial(n))
+        j = 0
+        while digits_of_n_factorial[j] == 0:
+            zeros_count += 1
+            j += 1
+        return zeros_count
