@@ -1,6 +1,6 @@
 """
-    Description: This is my attempted on the Wolfram Challenge Digital Root, that you can find under the following link:
-    https://challenges.wolfram.com/challenge/odds-before-evens
+    Description: This is my attempted on the Wolfram Challenge Odds before Evens, that you can find under the following
+     link: https://challenges.wolfram.com/challenge/odds-before-evens
 """
 
 
