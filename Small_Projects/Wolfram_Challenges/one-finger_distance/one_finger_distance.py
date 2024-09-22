@@ -7,8 +7,8 @@
 def one_finger_distance(word):
     """
 
-    :param word:
-    :return:
+    :param word: A string only containing lowercase letters.
+    :return: One finger distance of the word.
     """
     lowercase_letters = [letter for letter in "abcdefghijklmnopqrstuvwxyz"]
     word_length = len(word)
