@@ -1,6 +1,6 @@
 """
     Description: This is my attempted on the Wolfram Challenge Butterflied Strings, that you can find under the
-    following link: https://challenges.wolframcloud.com/challenge/fizz-buzz
+    following link: https://challenges.wolframcloud.com/challenge/butterflied-strings
 """
 
 
@@ -8,7 +8,7 @@ def butterfly_string(string):
     """
 
     :param string: Some string.
-    :return: Input string concatinated with the reverse of itself.
+    :return: Input string concatenated with the reverse of itself.
     Example:
         Hallo -> HalloollaH
         Tree -> TreeeerT
